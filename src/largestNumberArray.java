@@ -11,11 +11,11 @@ public class largestNumberArray {
 
     }
 
-
     public static String largestNumArray(int[] arr){
 
         String ans  = "";
 
+         long val = Long.MAX_VALUE;
         // 1. convert to string array
         String strArr [] = new String[arr.length];
         for (int i=0;  i<arr.length; i++){
@@ -35,7 +35,6 @@ public class largestNumberArray {
                 return -s1.compareTo(s2);
             }
         });
-
          for (String s: strArr){
              ans += s;
          }
