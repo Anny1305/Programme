@@ -1,2 +1,7 @@
+#Default workspace files
 .DS_Store
+.idea
+
 out/**
+
+
