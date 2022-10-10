@@ -1,17 +1,22 @@
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Practise {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        String str = "i like this program very much";
+//        String[] arrOfStr = str.split("[.-]");
 
-        int i=0;
-        while(i<10)
-        {
-            i=i+1;
-            System.out.print(i);
-            i=i+1;
+        Scanner scn = new Scanner(str);
+        while(scn.hasNext()){
+            System.out.println(scn.next());
         }
 
+
+
+
+
     }
+
 
 }

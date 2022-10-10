@@ -2,6 +2,8 @@
 .DS_Store
 .idea
 Programme.iml
+
+#Class files
 out/**
 
 
